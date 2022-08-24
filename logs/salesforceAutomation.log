@@ -1,85 +1,24 @@
-INFO  2022-07-11 09:42:19,157 [main] SpringBootStep:logStarting(50): Starting SpringBootStep on LASST310594 with PID 18040 (started by sumans in C:\Users\sumans\Desktop\O2_One\SalesForceSITAutomation-master-one)
-DEBUG 2022-07-11 09:42:19,176 [main] SpringBootStep:logStarting(53): Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-INFO  2022-07-11 09:42:19,176 [main] SpringBootStep:logStartupProfileInfo(652): No active profile set, falling back to default profiles: default
-INFO  2022-07-11 09:43:55,039 [main] SystemDetails:<init>(50): detected OS: [Windows 10 , 10.0]
-INFO  2022-07-11 09:43:55,039 [main] Configuration:read(46): loading configuration: /C:/Users/sumans/Desktop/O2_One/SalesForceSITAutomation-master-one/target/test-classes/config.properties
-INFO  2022-07-11 09:43:55,039 [main] Configuration:<init>(34): PageFactory is configured for deviceType [null]
-INFO  2022-07-11 09:43:58,490 [main] SpringBootStep:logStarted(59): Started SpringBootStep in 99.594 seconds (JVM running for 131.726)
-DEBUG 2022-07-11 09:44:00,031 [main] SpringBootStep:beforeScenario(50): *****[GPT_BilledRevenue][Scenario #1: To verify Sales rep is able to add and validate the basket in Pre Prod ] *****
-DEBUG 2022-07-11 09:44:06,682 [main] PageObject:login(87): using login details form configuration file...
-DEBUG 2022-07-11 09:44:06,682 [main] PageObject:login(93): Shradha@Rani11
-DEBUG 2022-07-11 09:44:06,682 [main] PageObject:login(94): login to saleforce ....
-DEBUG 2022-07-11 09:44:07,083 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:44:44,445 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:44:46,775 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:44:57,995 [main] PageObject:clickElement(67): clicking on Sales Rep PrivateE2E
-DEBUG 2022-07-11 09:45:06,627 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:45:08,768 [main] PageObject:clickElement(67): clicking on User Detail
-DEBUG 2022-07-11 09:45:14,479 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:45:23,925 [main] PageObject:profileLoginGPT(207): Logged in as Sales Rep
-DEBUG 2022-07-11 09:45:30,989 [main] PageObject:clickElement(67): clicking on Opportunities
-DEBUG 2022-07-11 09:45:35,173 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:45:38,472 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:45:57,213 [main] PageObject:clickElement(67): clicking on [ 11/07/2022 ]
-DEBUG 2022-07-11 09:46:08,667 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:46:23,940 [main] PageObject:opportunityCreation(99): Opportunity is created
-DEBUG 2022-07-11 09:46:29,228 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:46:54,357 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:47:20,813 [main] PageObject:productdetailsMobile(141): O2 Product is added
-DEBUG 2022-07-11 09:47:32,258 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:48:40,555 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:48:44,743 [main] PageObject:addproduct(58): Basket is ready to add products
-DEBUG 2022-07-11 09:48:50,995 [main] PageObject:clickElement(67): clicking on Big Business or NS2
-DEBUG 2022-07-11 09:48:54,265 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:49:23,580 [main] PageObject:BBConfig(126): Big Business or NS2 product is present in Basket
-DEBUG 2022-07-11 09:49:23,596 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:50:53,465 [main] PageObject:clickElement(67): clicking on Finish
-DEBUG 2022-07-11 09:51:43,745 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:51:47,889 [main] PageObject:BBConfigSecond(339): Basket is ready to add products
-DEBUG 2022-07-11 09:51:50,928 [main] PageObject:clickElement(67): clicking on Big Business or NS2
-DEBUG 2022-07-11 09:51:54,224 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:52:10,625 [main] PageObject:BBConfigSecond(358): Big Business or NS2 product is present in Basket
-DEBUG 2022-07-11 09:52:12,650 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:53:28,634 [main] PageObject:clickElement(67): clicking on Please select value
-DEBUG 2022-07-11 09:53:51,024 [main] PageObject:clickElement(67): clicking on Finish
-DEBUG 2022-07-11 09:54:41,262 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:54:45,386 [main] PageObject:BBConfigThird(456): Basket is ready to add products
-DEBUG 2022-07-11 09:54:50,425 [main] PageObject:clickElement(67): clicking on Big Business or NS2
-DEBUG 2022-07-11 09:54:53,666 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:55:21,342 [main] PageObject:BBConfigThird(475): Big Business or NS2 product is present in Basket
-DEBUG 2022-07-11 09:55:23,367 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:56:39,507 [main] PageObject:clickElement(67): clicking on Please select value
-DEBUG 2022-07-11 09:57:27,271 [main] PageObject:clickElement(67): clicking on Finish
-DEBUG 2022-07-11 09:58:01,298 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:58:17,506 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:58:19,615 [main] PageObject:RunCompatiblity(595): Mobile Flex Compatible
-DEBUG 2022-07-11 09:58:19,616 [main] PageObject:RunCompatiblity(596): mobile Flex has been checked for Compatibility
-DEBUG 2022-07-11 09:58:49,063 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:59:03,318 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:59:20,633 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:59:43,811 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 09:59:48,009 [main] PageObject:clickElement(67): clicking on Clauses
-DEBUG 2022-07-11 10:00:29,447 [main] PageObject:clickElement(67): clicking on Discount
-DEBUG 2022-07-11 10:00:50,665 [main] SpringBootStep:afterScenario(68): *****[PASS][Scenario #1: To verify Sales rep is able to add and validate the basket in Pre Prod ] *****
-DEBUG 2022-07-11 10:00:50,665 [main] SpringBootStep:beforeScenario(50): *****[GPT_BilledRevenue][Scenario #2: To verify Sales rep is able to add and validate the basket in Pre Prod ] *****
-DEBUG 2022-07-11 10:00:53,885 [main] PageObject:login(87): using login details form configuration file...
-DEBUG 2022-07-11 10:00:53,886 [main] PageObject:login(93): Shradha@Rani11
-DEBUG 2022-07-11 10:00:53,886 [main] PageObject:login(94): login to saleforce ....
-DEBUG 2022-07-11 10:00:54,236 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:08,503 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:10,890 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:16,113 [main] PageObject:clickElement(67): clicking on Sales Rep PrivateE2E
-DEBUG 2022-07-11 10:01:23,450 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:25,605 [main] PageObject:clickElement(67): clicking on User Detail
-DEBUG 2022-07-11 10:01:29,189 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:33,592 [main] PageObject:profileLoginGPT(207): Logged in as Sales Rep
-DEBUG 2022-07-11 10:01:40,680 [main] PageObject:clickElement(67): clicking on Opportunities
-DEBUG 2022-07-11 10:01:43,991 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:01:47,089 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:02:04,089 [main] PageObject:clickElement(67): clicking on [ 11/07/2022 ]
-DEBUG 2022-07-11 10:02:15,542 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:02:25,077 [main] PageObject:opportunityCreation(99): Opportunity is created
-DEBUG 2022-07-11 10:02:30,390 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:02:54,130 [main] PageObject:clickElement(67): clicking on 
-DEBUG 2022-07-11 10:03:04,563 [main] PageObject:productdetailsMobile(141): O2 Product is added
-DEBUG 2022-07-11 10:03:16,144 [main] PageObject:clickElement(67): clicking on 
+INFO  2022-08-11 09:57:17,895 [main] SpringBootStep:logStarting(50): Starting SpringBootStep on LASST310594 with PID 11212 (started by sumans in C:\Users\sumans\Desktop\Retry_individual\SalesForceAutomationMaster)
+DEBUG 2022-08-11 09:57:17,910 [main] SpringBootStep:logStarting(53): Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+INFO  2022-08-11 09:57:17,910 [main] SpringBootStep:logStartupProfileInfo(652): No active profile set, falling back to default profiles: default
+INFO  2022-08-11 09:58:25,472 [main] SystemDetails:<init>(50): detected OS: [Windows 10 , 10.0]
+INFO  2022-08-11 09:58:25,472 [main] Configuration:read(46): loading configuration: /C:/Users/sumans/Desktop/Retry_individual/SalesForceAutomationMaster/target/test-classes/config.properties
+INFO  2022-08-11 09:58:25,472 [main] Configuration:<init>(34): PageFactory is configured for deviceType [null]
+INFO  2022-08-11 09:58:28,509 [main] SpringBootStep:logStarted(59): Started SpringBootStep in 70.843 seconds (JVM running for 102.17)
+DEBUG 2022-08-11 09:58:28,819 [main] SpringBootStep:beforeScenario(50): *****[GPT_BilledRevenueProductCombinationOne][Scenario #1: To verify Sales rep is able to add (voice, voice & data(individual), voice & data(shared)) products, validate the basket and capture the Voice RRP and Data RRP in Pre Prod ] *****
+DEBUG 2022-08-11 09:58:35,304 [main] PageObject:login(87): using login details form configuration file...
+DEBUG 2022-08-11 09:58:35,304 [main] PageObject:login(93): Shradha@Rani11
+DEBUG 2022-08-11 09:58:35,305 [main] PageObject:login(94): login to saleforce ....
+DEBUG 2022-08-11 09:58:35,660 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:10,832 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:13,132 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:21,081 [main] PageObject:clickElement(67): clicking on Sales Rep PrivateE2E
+DEBUG 2022-08-11 09:59:29,586 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:31,729 [main] PageObject:clickElement(67): clicking on User Detail
+DEBUG 2022-08-11 09:59:37,363 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:44,275 [main] PageObject:profileLoginGPT(207): Logged in as Sales Rep
+DEBUG 2022-08-11 09:59:51,342 [main] PageObject:clickElement(67): clicking on Opportunities
+DEBUG 2022-08-11 09:59:56,650 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 09:59:59,764 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2022-08-11 10:00:21,098 [main] PageObject:clickElement(67): clicking on [ 11/08/2022 ]
+DEBUG 2022-08-11 10:00:32,510 [main] PageObject:clickElement(67): clicking on 

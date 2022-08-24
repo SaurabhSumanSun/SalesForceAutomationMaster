@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SalesForceSITAutomation-master-one.iml" filepath="$PROJECT_DIR$/SalesForceSITAutomation-master-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalesForceAutomation.iml" filepath="$PROJECT_DIR$/SalesForceAutomation.iml" />
     </modules>
   </component>
 </project>

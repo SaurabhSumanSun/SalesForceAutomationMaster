@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SalesForceSITAutomation-master-one" />
+        <module name="SalesForceAutomation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SalesForceSITAutomation-master-one" target="11" />
+      <module name="SalesForceAutomation" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SalesForceSITAutomation-master-one" options="-parameters" />
+      <module name="SalesForceAutomation" options="-parameters" />
     </option>
   </component>
 </project>
