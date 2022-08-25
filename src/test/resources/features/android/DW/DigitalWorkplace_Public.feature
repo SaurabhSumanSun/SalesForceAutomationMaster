@@ -1,6 +1,6 @@
 Feature: feature001
 
-  Scenario Outline: To verify Sales rep is able to perform an E2E with all DW products
+  Scenario Outline: To verify Sales rep is able to perform an E2E with all DW products for public account
     Given User logins as Enterprise Sales representative
     Then Sales rep creates an opportunity with the following details "<Account_Name>" "<Deal_Type>" "<Type_of_support>"
     Then Sales rep adds the Enterprise product details for all DW products
