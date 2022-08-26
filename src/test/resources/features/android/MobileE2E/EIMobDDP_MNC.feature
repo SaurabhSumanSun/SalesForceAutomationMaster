@@ -1,6 +1,6 @@
 Feature: feature001
 
-  Scenario Outline: To verify Sales rep is able to perform an E2E with mobile product
+  Scenario Outline: To verify Sales rep is able to perform an E2E with mobile product for MNC account
     Given User logins as Enterprise Sales representative for DDP
     Then Sales rep for DDP creates an opportunity with the following details "<Deal_Type>" "<Type_of_support>"
     Then Sales rep for DDP adds the Enterprise product details for all DDP products
