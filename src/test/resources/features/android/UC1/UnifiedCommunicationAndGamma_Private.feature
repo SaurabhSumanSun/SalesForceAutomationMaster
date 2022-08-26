@@ -1,7 +1,7 @@
 Feature: Enterprise industrialisation
 
   @Test
-  Scenario Outline: To verify that salesRepresentative is able to complete an E2E order successfully with HostedMI, MobileRecording and InboundNumbers products in the same basket
+  Scenario Outline: To verify that salesRepresentative is able to complete an E2E order successfully with HostedMI, MobileRecording and InboundNumbers products in the same basket for private account
     Given User logins as Sales representative
     Then Sales representative creates an opportunity with the following details and saves it "<Account_Name>" "<Deal_Type>" "<Type_of_support>"
     Then Sales rep adds an retail product with required details

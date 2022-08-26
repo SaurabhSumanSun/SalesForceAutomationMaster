@@ -1,7 +1,7 @@
 Feature: Enterprise industrialisation Unified communication 2
 
   @Test
-  Scenario Outline: To verify that salesRep is able to complete an E2E order successfully with the PBX, SIP, Fixed Lines, Inbound number in the same basket
+  Scenario Outline: To verify that salesRep is able to complete an E2E order successfully with the PBX, SIP, Fixed Lines, Inbound number in the same basket for public account
     Given user login to salesforce application
     #Then Sales rep creates an opportunity with the "Test Private" as Account "Acquisition" as Deal Type and "Self-serve pricing tools" as Type of support
     Then Sales representative creates an opportunity with the following details and saves it "<Account_Name>" "<Deal_Type>" "<Type_of_support>"
